@@ -624,5 +624,45 @@ html{
     letter-spacing: 3px;
   }
 
-  
+  .kotakAnim3 {
+    right: 80px;
+  }
+
+  .main {
+    justify-content: start;
+    position: relative;
+  }
+
+  .main .conten {
+    padding: 4em;
+    align-items: start;
+    flex-direction: none;
+    width: 100%;
+  }
+
+  .main .conten h1 {
+    font-size: 50px;
+  }
+
+  .main .conten p {
+    text-indent: 2em;
+    letter-spacing: 20px;
+  }
+
+
+  .logo-main {
+    background-image: url(about.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position-y: -20px;
+    z-index: 200;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 50;
+    right: 5em;
+    animation: gontaganti 8s ease-in-out infinite;
+    transition: 3s ease-in-out;
+  } 
 }
